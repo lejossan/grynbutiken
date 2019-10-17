@@ -1,0 +1,26 @@
+/*
+ Theme Name:   Grynbutiken
+ Theme URI:    http://grynbutiken.se
+ Description:  Storefront Child Theme specifically made for Grynbutiken
+ Author:       Josefine Espenkrona
+ Author URI:   https://verklighetensgard.se
+ Template:     storefront
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  grynbutiken
+*/
+
+body.woocommerce #primary {
+	float: none;
+	width: 100%;
+}
+
+.page-template-template-homepage .entry-content {
+    max-width: inherit;
+}
+
+.col-full {
+    padding: 0;
+}
