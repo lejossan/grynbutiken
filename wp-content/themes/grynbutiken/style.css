@@ -11,16 +11,52 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  grynbutiken
 */
+@import url('https://fonts.googleapis.com/css?family=Assistant:200,400|Roboto:300|Josefin+Slab:100,300,400,700&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
 body.woocommerce #primary {
 	float: none;
 	width: 100%;
 }
-
+h1, h2, h3 {
+    font-family: 'Josefin Slab', sans-serif;
+}
+.site-header {
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: space-evenly;   
+}
+.site-header > div {
+    margin: 0;
+}
+.site-header .col-full {
+    margin-right: auto;
+    margin-left: auto;
+} 
+.site-branding .site-title a {
+    font-family: 'Josefin Slab', sans-serif;
+    font-weight: 200;
+    font-size: 3em;
+}
 .page-template-template-homepage .entry-content {
     max-width: inherit;
 }
 
 .col-full {
     padding: 0;
+}
+
+
+.link-full figcaption {
+    display: block;
+    height: inherit;
+}
+.entry-content .link-full figcaption a:not(.button) {
+    color: white;
+    text-decoration: none;
+    font-size: 5em;
+    font-family: 'Josefin Slab', sans-serif;
 }
